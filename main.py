@@ -30,6 +30,8 @@ def summarize_text(article, instructions, max_words):
     )
     return response.choices[0].message['content']
 
+st.image('./Lyzr Logo 250px by 250px.png')
+
 # Streamlit app layout
 st.title('The 4 Items Summarizer by Lyzr.ai')
 
